@@ -1,0 +1,3 @@
+target 'DWCrashCollector' do
+pod 'DWCrashCollector', :path => '../'
+end		

@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  DWCrashCollector.h DWCrashCollector
+//  DWCrashCollector
 //
 //  Created by Wicky on 2020/1/11.
 //  Copyright © 2020 Wicky. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import <DWCrashCollector/DWCrashCollector.h>
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [DWCrashCollector collectCrashInDefaultWithSavePath:nil];
+    
+    NSLog(@"%@",[DWCrashCollector unHandledCrashes]);
+    
     return YES;
 }
 

@@ -1,6 +1,6 @@
 //
-//  ViewController.h
-//  DWCrashCollector.h DWCrashCollector
+//  AppDelegate.h
+//  DWCrashCollector
 //
 //  Created by Wicky on 2020/1/11.
 //  Copyright © 2020 Wicky. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 
 @end
