@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name = 'DWCrashCollector'
-s.version = '0.0.0.1'
+s.version = '0.0.0.2'
 s.license = { :type => 'MIT', :file => 'LICENSE' }
 s.summary = '崩溃收集类。Collect crash.'
 s.homepage = 'https://github.com/CodeWicky/DWCrashCollector'

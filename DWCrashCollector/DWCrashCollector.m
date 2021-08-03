@@ -62,7 +62,7 @@ static dispatch_queue_t serialQ = nil;
         crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Crash Time: %@\n",timeStr]];
         crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Device Model: %@\n",[UIDevice dw_deviceDetailModel]]];
         crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Device System: %@\n",[UIDevice dw_deviceSystemVersion]]];
-        crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Device CPU Arch: %@\n",[UIDevice dw_deviceCPUType]]];
+        crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Device CPU Arch: %@\n",[UIDevice dw_deviceCPUCore]]];
         crashStr = [crashStr stringByAppendingString:[NSString stringWithFormat:@"Crash Detail:\n%@\n%@.\n%@",exception.name,exception.reason,[NSThread callStackSymbols]]];
         writeDataString2File(crashStr, crashFilePath);
         saveCrashImage2Path(path);
