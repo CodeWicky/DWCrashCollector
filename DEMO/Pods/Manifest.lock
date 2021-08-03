@@ -2,8 +2,8 @@ PODS:
   - DWCrashCollector (0.0.0.1):
     - DWKit/DWCategory/DWDeviceUtils
     - DWKit/DWUtils/DWFileManager
-  - DWKit/DWCategory/DWDeviceUtils (0.0.0.10)
-  - DWKit/DWUtils/DWFileManager (0.0.0.10)
+  - DWKit/DWCategory/DWDeviceUtils (0.0.0.22)
+  - DWKit/DWUtils/DWFileManager (0.0.0.22)
 
 DEPENDENCIES:
   - DWCrashCollector (from `../`)
@@ -18,8 +18,8 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   DWCrashCollector: f648d9e85560b088cf92bc9347a52d4c05302080
-  DWKit: d0b857eaee0941b634953bf805c27465352fca92
+  DWKit: a9a391f263fcb8b8ef907ac6c3c4ec80391f418b
 
-PODFILE CHECKSUM: a3ad5a92eb15e9c5247e45cf07f72c7b7d788a40
+PODFILE CHECKSUM: fc7851f88912180d0a25c398ad8fe109815c6103
 
 COCOAPODS: 1.7.2

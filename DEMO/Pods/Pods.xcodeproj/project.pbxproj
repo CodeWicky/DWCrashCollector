@@ -8,32 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		4726B9D24B7327048F24732523286125 /* UIDevice+DWDeviceUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 53B79C1BAB29A8E8DBB6236E0222C002 /* UIDevice+DWDeviceUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		63356488C8C1A4A9B36E1A2BCADAE778 /* Pods-DWCrashCollector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 36BF3BC377A551D9759DE1831ABFF8DC /* Pods-DWCrashCollector-dummy.m */; };
 		6747312E58C58CFA53164352E269C88C /* UIDevice+DWDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 818FF1B78DF4F7870B1DFD05C59218A0 /* UIDevice+DWDeviceUtils.m */; };
 		85B96A305B44A2102B2014D0A9810607 /* DWCrashCollector.m in Sources */ = {isa = PBXBuildFile; fileRef = 544DE685F0459D472A67F5744113684E /* DWCrashCollector.m */; };
 		A264239FEF34A4EBC34D577E8E72490A /* DWCrashCollector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 051F245FA6877BF14FD2723FD74833EC /* DWCrashCollector-dummy.m */; };
 		A70E74A6C2E55212F66BFA737163B7D4 /* DWFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D7A732FDCC678B94FDBCEF273F77C9B0 /* DWFileManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BCFAB1DF77801F6DBDB69EEB3643F412 /* DWFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FF7B152CC9FCBE8C7D04E296AA2502 /* DWFileManager.m */; };
+		D63D1DACFBF1F2C92A99352A14EC41AB /* Pods-DEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD010FB84171CC61CDE76D538FCCC46A /* Pods-DEMO-dummy.m */; };
 		D846B523294193E2A8AABCB7C0DB4941 /* DWCrashCollector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C6FAB670F0831C2E2FAFB5831FF1F20 /* DWCrashCollector.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D8944EFC91BEF48C319FC8C589FC9D1A /* DWKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81A6C89B78C9D4C3B9BF443D68966B5C /* DWKit-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5D9C7742F3217ABC90619E059B659050 /* PBXContainerItemProxy */ = {
+		02D70DED0838D0368754A53659E3FD9F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 0C701BBEE5D869E57EF5A4A9353C2A29;
 			remoteInfo = DWKit;
 		};
-		674CB30E6686DCF892D33A94AE57A63F /* PBXContainerItemProxy */ = {
+		130D75D374E5837D1F274ED5CF9D35A9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = E1797DBDBDA5CCF1E89B1FF8B2607FB8;
 			remoteInfo = DWCrashCollector;
 		};
-		DCED2144494079AF0DE4317E3A744268 /* PBXContainerItemProxy */ = {
+		5D9C7742F3217ABC90619E059B659050 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -46,27 +46,27 @@
 		03A724770F9A03CFB1CCE365D5F81EE1 /* libDWKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDWKit.a; path = libDWKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		051F245FA6877BF14FD2723FD74833EC /* DWCrashCollector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWCrashCollector-dummy.m"; sourceTree = "<group>"; };
 		09BE65FCBED040D2006EE2252D7BD76B /* DWCrashCollector.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DWCrashCollector.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		14A28E372B6AF9A09890D0B0564A7034 /* Pods-DWCrashCollector.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWCrashCollector.debug.xcconfig"; sourceTree = "<group>"; };
 		1AEC93F47A2FBB25CD390DA27D9B1906 /* DWKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWKit.xcconfig; sourceTree = "<group>"; };
-		20AEA532620046292D1F031F931A78FC /* Pods-DWCrashCollector-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DWCrashCollector-acknowledgements.plist"; sourceTree = "<group>"; };
-		36BF3BC377A551D9759DE1831ABFF8DC /* Pods-DWCrashCollector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DWCrashCollector-dummy.m"; sourceTree = "<group>"; };
+		2512AC2B77BCDF93C4CCDD3060976442 /* Pods-DEMO-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DEMO-acknowledgements.plist"; sourceTree = "<group>"; };
 		376B3189D7BCA6C5052218014B26E5C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		39ACE93307D8C6233F0855B6A773B1F8 /* DWKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWKit-prefix.pch"; sourceTree = "<group>"; };
+		3DA4507D5132E11DFF0CCAEC280A9100 /* Pods-DEMO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEMO.release.xcconfig"; sourceTree = "<group>"; };
 		53B79C1BAB29A8E8DBB6236E0222C002 /* UIDevice+DWDeviceUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+DWDeviceUtils.h"; path = "DWKit/DWCategory/DWDeviceUtils/UIDevice+DWDeviceUtils.h"; sourceTree = "<group>"; };
 		544DE685F0459D472A67F5744113684E /* DWCrashCollector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWCrashCollector.m; path = DWCrashCollector/DWCrashCollector.m; sourceTree = "<group>"; };
-		5B682334C7825D6535115774F1BC7BDB /* Pods-DWCrashCollector-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DWCrashCollector-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5C6FAB670F0831C2E2FAFB5831FF1F20 /* DWCrashCollector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWCrashCollector.h; path = DWCrashCollector/DWCrashCollector.h; sourceTree = "<group>"; };
-		69365DD068CD520421D385B1A7ED3AD0 /* Pods-DWCrashCollector.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DWCrashCollector.release.xcconfig"; sourceTree = "<group>"; };
 		818FF1B78DF4F7870B1DFD05C59218A0 /* UIDevice+DWDeviceUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+DWDeviceUtils.m"; path = "DWKit/DWCategory/DWDeviceUtils/UIDevice+DWDeviceUtils.m"; sourceTree = "<group>"; };
 		81A6C89B78C9D4C3B9BF443D68966B5C /* DWKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DWKit-dummy.m"; sourceTree = "<group>"; };
+		94193B415DC19D8226D0C2798358D97F /* libPods-DEMO.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DEMO.a"; path = "libPods-DEMO.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A2B561A2FCA9A7B6565E3FCF69A4E485 /* libDWCrashCollector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libDWCrashCollector.a; path = libDWCrashCollector.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4FF7B152CC9FCBE8C7D04E296AA2502 /* DWFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DWFileManager.m; path = DWKit/DWUtils/DWFileManager/DWFileManager.m; sourceTree = "<group>"; };
 		A7E509AC06B71DAA58ECBE1C5D3B1FB2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AE0A923877764984905FAFAEF61A21EC /* DWCrashCollector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DWCrashCollector-prefix.pch"; sourceTree = "<group>"; };
-		B12E5C295A7BEDF1ABA459A9CB3BC39D /* libPods-DWCrashCollector.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-DWCrashCollector.a"; path = "libPods-DWCrashCollector.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7A732FDCC678B94FDBCEF273F77C9B0 /* DWFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DWFileManager.h; path = DWKit/DWUtils/DWFileManager/DWFileManager.h; sourceTree = "<group>"; };
 		D816B173F73E5E3B8AB5510FBB3A75BD /* DWCrashCollector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DWCrashCollector.xcconfig; sourceTree = "<group>"; };
+		DCFBAD247F185525827EC12BA2DB58B1 /* Pods-DEMO-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DEMO-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DD010FB84171CC61CDE76D538FCCC46A /* Pods-DEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DEMO-dummy.m"; sourceTree = "<group>"; };
+		E10D11AD4C2BE97D7DE1785B71ADAA67 /* Pods-DEMO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DEMO.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +77,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7CE4536C67733738EBA6F013313EDE0 /* Frameworks */ = {
+		B38F139F40B1323F9A2B4525F3C16910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,12 +94,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A18DAAC0141193A4E8BEB2B3A950D81 /* Products */ = {
+		02FBE1DA613CE07448816912CB862FD4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				A2B561A2FCA9A7B6565E3FCF69A4E485 /* libDWCrashCollector.a */,
 				03A724770F9A03CFB1CCE365D5F81EE1 /* libDWKit.a */,
-				B12E5C295A7BEDF1ABA459A9CB3BC39D /* libPods-DWCrashCollector.a */,
+				94193B415DC19D8226D0C2798358D97F /* libPods-DEMO.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,14 +123,6 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/DWKit";
-			sourceTree = "<group>";
-		};
-		47ABC12C6E88EEAC416470B79C2D061F /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				64487C5944EFE9216387FAEFF75056CD /* Pods-DWCrashCollector */,
-			);
-			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		4F41ECCA7558EE0301BCB95CD0776320 /* DWDeviceUtils */ = {
@@ -164,19 +156,6 @@
 			path = DWKit;
 			sourceTree = "<group>";
 		};
-		64487C5944EFE9216387FAEFF75056CD /* Pods-DWCrashCollector */ = {
-			isa = PBXGroup;
-			children = (
-				5B682334C7825D6535115774F1BC7BDB /* Pods-DWCrashCollector-acknowledgements.markdown */,
-				20AEA532620046292D1F031F931A78FC /* Pods-DWCrashCollector-acknowledgements.plist */,
-				36BF3BC377A551D9759DE1831ABFF8DC /* Pods-DWCrashCollector-dummy.m */,
-				14A28E372B6AF9A09890D0B0564A7034 /* Pods-DWCrashCollector.debug.xcconfig */,
-				69365DD068CD520421D385B1A7ED3AD0 /* Pods-DWCrashCollector.release.xcconfig */,
-			);
-			name = "Pods-DWCrashCollector";
-			path = "Target Support Files/Pods-DWCrashCollector";
-			sourceTree = "<group>";
-		};
 		72DDBAF580DBB3E7A54B45D97DEB0109 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -191,6 +170,14 @@
 				CE08F3F72BB2C83F8FE5DA5D9F1F99DE /* DWFileManager */,
 			);
 			name = DWUtils;
+			sourceTree = "<group>";
+		};
+		88E98CDC2057C97196F8FAADA29747D1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84564F5576B459D0383884192D4E6E0 /* Pods-DEMO */,
+			);
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
 		A33F2823518CCE47454DEDAB4120513D /* DWCategory */ = {
@@ -209,6 +196,19 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C84564F5576B459D0383884192D4E6E0 /* Pods-DEMO */ = {
+			isa = PBXGroup;
+			children = (
+				DCFBAD247F185525827EC12BA2DB58B1 /* Pods-DEMO-acknowledgements.markdown */,
+				2512AC2B77BCDF93C4CCDD3060976442 /* Pods-DEMO-acknowledgements.plist */,
+				DD010FB84171CC61CDE76D538FCCC46A /* Pods-DEMO-dummy.m */,
+				E10D11AD4C2BE97D7DE1785B71ADAA67 /* Pods-DEMO.debug.xcconfig */,
+				3DA4507D5132E11DFF0CCAEC280A9100 /* Pods-DEMO.release.xcconfig */,
+			);
+			name = "Pods-DEMO";
+			path = "Target Support Files/Pods-DEMO";
+			sourceTree = "<group>";
+		};
 		CE08F3F72BB2C83F8FE5DA5D9F1F99DE /* DWFileManager */ = {
 			isa = PBXGroup;
 			children = (
@@ -225,8 +225,8 @@
 				72DDBAF580DBB3E7A54B45D97DEB0109 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				BE5FE19F5D442755AE8E2BACACA5589E /* Pods */,
-				0A18DAAC0141193A4E8BEB2B3A950D81 /* Products */,
-				47ABC12C6E88EEAC416470B79C2D061F /* Targets Support Files */,
+				02FBE1DA613CE07448816912CB862FD4 /* Products */,
+				88E98CDC2057C97196F8FAADA29747D1 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
@@ -252,6 +252,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0050E7CBAFA3613DDB8535499F615D25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36065B6177AB88CEADF78DDB621D3039 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -266,13 +273,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D846B523294193E2A8AABCB7C0DB4941 /* DWCrashCollector.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EEF5C8A7A743D58992E8A0130D228D29 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,23 +296,23 @@
 			productReference = 03A724770F9A03CFB1CCE365D5F81EE1 /* libDWKit.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		1ACB33D9BF8AED8E8FBBFB25B3BECFEC /* Pods-DWCrashCollector */ = {
+		24B750B7F34B1A493C5D2039FA09ECD9 /* Pods-DEMO */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E446DBCFD0723CCE6C8B211EE3AA9F38 /* Build configuration list for PBXNativeTarget "Pods-DWCrashCollector" */;
+			buildConfigurationList = 65F3A7FD4B545CB908FD83D24AEC730B /* Build configuration list for PBXNativeTarget "Pods-DEMO" */;
 			buildPhases = (
-				EEF5C8A7A743D58992E8A0130D228D29 /* Headers */,
-				C39C320300018C1F712B1AE839CA17E3 /* Sources */,
-				D7CE4536C67733738EBA6F013313EDE0 /* Frameworks */,
+				0050E7CBAFA3613DDB8535499F615D25 /* Headers */,
+				2B73BEF34876CCE3A41CC86D4782DB71 /* Sources */,
+				B38F139F40B1323F9A2B4525F3C16910 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C0BEABB992EFEC191BA3ADA27C579D5C /* PBXTargetDependency */,
-				982C9DC9B289FF203B893C0957EAB1B6 /* PBXTargetDependency */,
+				5E5103E82F0CE8BB2565E61CA421CD04 /* PBXTargetDependency */,
+				895FEFEC385716B1C108318F4C78B04A /* PBXTargetDependency */,
 			);
-			name = "Pods-DWCrashCollector";
-			productName = "Pods-DWCrashCollector";
-			productReference = B12E5C295A7BEDF1ABA459A9CB3BC39D /* libPods-DWCrashCollector.a */;
+			name = "Pods-DEMO";
+			productName = "Pods-DEMO";
+			productReference = 94193B415DC19D8226D0C2798358D97F /* libPods-DEMO.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		E1797DBDBDA5CCF1E89B1FF8B2607FB8 /* DWCrashCollector */ = {
@@ -351,13 +351,13 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 0A18DAAC0141193A4E8BEB2B3A950D81 /* Products */;
+			productRefGroup = 02FBE1DA613CE07448816912CB862FD4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				E1797DBDBDA5CCF1E89B1FF8B2607FB8 /* DWCrashCollector */,
 				0C701BBEE5D869E57EF5A4A9353C2A29 /* DWKit */,
-				1ACB33D9BF8AED8E8FBBFB25B3BECFEC /* Pods-DWCrashCollector */,
+				24B750B7F34B1A493C5D2039FA09ECD9 /* Pods-DEMO */,
 			);
 		};
 /* End PBXProject section */
@@ -373,20 +373,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2B73BEF34876CCE3A41CC86D4782DB71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D63D1DACFBF1F2C92A99352A14EC41AB /* Pods-DEMO-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E63B49BC745894AA923D7B6C69B279B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A264239FEF34A4EBC34D577E8E72490A /* DWCrashCollector-dummy.m in Sources */,
 				85B96A305B44A2102B2014D0A9810607 /* DWCrashCollector.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C39C320300018C1F712B1AE839CA17E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63356488C8C1A4A9B36E1A2BCADAE778 /* Pods-DWCrashCollector-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,17 +399,17 @@
 			target = 0C701BBEE5D869E57EF5A4A9353C2A29 /* DWKit */;
 			targetProxy = 5D9C7742F3217ABC90619E059B659050 /* PBXContainerItemProxy */;
 		};
-		982C9DC9B289FF203B893C0957EAB1B6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DWKit;
-			target = 0C701BBEE5D869E57EF5A4A9353C2A29 /* DWKit */;
-			targetProxy = DCED2144494079AF0DE4317E3A744268 /* PBXContainerItemProxy */;
-		};
-		C0BEABB992EFEC191BA3ADA27C579D5C /* PBXTargetDependency */ = {
+		5E5103E82F0CE8BB2565E61CA421CD04 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = DWCrashCollector;
 			target = E1797DBDBDA5CCF1E89B1FF8B2607FB8 /* DWCrashCollector */;
-			targetProxy = 674CB30E6686DCF892D33A94AE57A63F /* PBXContainerItemProxy */;
+			targetProxy = 130D75D374E5837D1F274ED5CF9D35A9 /* PBXContainerItemProxy */;
+		};
+		895FEFEC385716B1C108318F4C78B04A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DWKit;
+			target = 0C701BBEE5D869E57EF5A4A9353C2A29 /* DWKit */;
+			targetProxy = 02D70DED0838D0368754A53659E3FD9F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -485,30 +485,7 @@
 			};
 			name = Release;
 		};
-		83C9F226405AA9E7FEC01CF1D04175F1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D816B173F73E5E3B8AB5510FBB3A75BD /* DWCrashCollector.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/DWCrashCollector/DWCrashCollector-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = DWCrashCollector;
-				PRODUCT_NAME = DWCrashCollector;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */ = {
+		5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -559,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -572,9 +549,9 @@
 			};
 			name = Debug;
 		};
-		CB0EE378BC98E6B43A98D7FD015294E0 /* Release */ = {
+		67E95034ADFFA310D8ECD5196666C8E7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 69365DD068CD520421D385B1A7ED3AD0 /* Pods-DWCrashCollector.release.xcconfig */;
+			baseConfigurationReference = 3DA4507D5132E11DFF0CCAEC280A9100 /* Pods-DEMO.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -582,7 +559,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -595,7 +572,30 @@
 			};
 			name = Release;
 		};
-		ECB437504DF805BD96CAABF97400B526 /* Release */ = {
+		83C9F226405AA9E7FEC01CF1D04175F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D816B173F73E5E3B8AB5510FBB3A75BD /* DWCrashCollector.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DWCrashCollector/DWCrashCollector-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DWCrashCollector;
+				PRODUCT_NAME = DWCrashCollector;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB9B38139C5627437C662CCBEFC5D805 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -643,7 +643,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -655,9 +655,9 @@
 			};
 			name = Release;
 		};
-		F3C77F1B78CAA8C321FB139ACE4340D2 /* Debug */ = {
+		FE4D2A105FECF355BABB01FD57B690BF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14A28E372B6AF9A09890D0B0564A7034 /* Pods-DWCrashCollector.debug.xcconfig */;
+			baseConfigurationReference = E10D11AD4C2BE97D7DE1785B71ADAA67 /* Pods-DEMO.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -665,7 +665,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				MACH_O_TYPE = staticlib;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
@@ -683,8 +683,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				939F1A8F6BCEB7F9F64D9EEE50CAE014 /* Debug */,
-				ECB437504DF805BD96CAABF97400B526 /* Release */,
+				5F105DE130E7C58EB2BB2D3D56345DEF /* Debug */,
+				AB9B38139C5627437C662CCBEFC5D805 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65F3A7FD4B545CB908FD83D24AEC730B /* Build configuration list for PBXNativeTarget "Pods-DEMO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE4D2A105FECF355BABB01FD57B690BF /* Debug */,
+				67E95034ADFFA310D8ECD5196666C8E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -703,15 +712,6 @@
 			buildConfigurations = (
 				83C9F226405AA9E7FEC01CF1D04175F1 /* Debug */,
 				184A0D25EB0E15BE2C4F53BD380D41F7 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E446DBCFD0723CCE6C8B211EE3AA9F38 /* Build configuration list for PBXNativeTarget "Pods-DWCrashCollector" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F3C77F1B78CAA8C321FB139ACE4340D2 /* Debug */,
-				CB0EE378BC98E6B43A98D7FD015294E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

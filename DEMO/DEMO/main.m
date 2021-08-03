@@ -1,9 +1,8 @@
 //
 //  main.m
-//  DWCrashCollector
+//  DEMO
 //
-//  Created by Wicky on 2020/1/11.
-//  Copyright © 2020 Wicky. All rights reserved.
+//  Created by Wicky on 2020/12/6.
 //
 
 #import <UIKit/UIKit.h>
